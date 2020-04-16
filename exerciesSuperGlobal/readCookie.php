@@ -10,7 +10,8 @@ session_start();
     <title>Document</title>
     <style>
         body {
-            background-color: #<?php echo $_SESSION['bgColor']; ?>
+            background-color: "<?php echo ("#" . $_SESSION['bgColor']); ?>
+
         }
     </style>
 </head>
